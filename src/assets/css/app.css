@@ -1,0 +1,23 @@
+:deep() .van-icon__image {
+   vertical-align: middle;
+}
+
+:deep() .van-button,
+.van-button::before {
+   border: 0px;
+   background: none;
+   font-size: 1.1rem;
+   float: left;
+   width: 15rem;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+}
+
+:deep() .van-cell {
+   box-sizing: border-box;
+}
+
+:deep() .van-button__content {
+   justify-content: left;
+}
